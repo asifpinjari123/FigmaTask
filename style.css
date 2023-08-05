@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+.Maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.Card {
+    padding: 99px;
+    width: 500px;
+    background-color: #fff;
+}
+
+.Cardalign {
+    display: flex;
+    align-items: center;
+}
+
+.Bottomborder {
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+}
+
+.Title {
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 400px;
+    text-align: center;
+    color: #2e684c;
+}
+
+.Cardborder {
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    margin-top: 16px;
+}
+
+.Card2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.Span1 {
+    display: flex;
+    align-items: center;
+}
+
+.Span2 {
+    padding-left: 10px;
+}
+
+.Cardborder2 {
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    margin-top: 16px;
+    background-color: #e8f5e9;
+    font-size: 12px;
+    padding-bottom: 12px;
+}
+
+.Strike {
+    padding-top: 16px;
+    font-weight: bold;
+    font-size: 10px;
+    color: #d9d0d0;
+}
+
+.MostTitle {
+    color: #2e684c;
+}
+
+.Input {
+    display: flex;
+    align-items: center;
+    padding: 0px 26px;
+}
+
+.Custom-Input {
+    position: relative;
+    display: inline-block;
+}
+
+.Text-Input {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 70px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 13px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #312f2f;
+    font-size: 14px;
+}
+
+.select-items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    z-index: 999;
+}
+
+.custom-select.active .select-items {
+    display: block;
+}
+
+.select-items div {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.select-items div:hover {
+    background-color: #ddd;
+}
+
+.Size {
+    font-size: 10px;
+    font-family: sans-serif;
+    padding: 3px 0px;
+}
+
+.Number {
+    font-size: 11px;
+    padding-top: 12px;
+    padding-right: 5px;
+}
+
+.Number2 {
+    font-size: 11px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+
+.Text {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    font-family: sans-serif;
+}
+
+.AddBtn {
+    padding: 12px;
+    width: 100%;
+    background-color: #2e684c;
+    color: #fff;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+
+.Plussicon {
+    padding-right: 5px;
+    font-size: 10px;
+}
